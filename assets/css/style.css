@@ -17,4 +17,7 @@ header{
     padding: 0 8%;
     background-color: #171717;
     border-bottom: 1px solid rgb(115, 7, 7) ;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
