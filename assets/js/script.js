@@ -1,6 +1,6 @@
 const imgsDestaques = [
-    "./assets/img/OIP.webp",
-     "./assets/img/baixados.webp",
+    "./assets/img/fifa2.jpg" 
+    "./assets/img/brawl1.jpg"
 ]
 
 let imagemAtual = 1;
@@ -8,7 +8,7 @@ let imagemAtual = 1;
 const imagem  = document.querySelector("#imagemdestaque")
 
 setInterval(function (){
-    atual++;
+    imagemAtual++;
     if(imagemAtual >= imgsDestaques.length){
         imagemAtual = 0;
     }
